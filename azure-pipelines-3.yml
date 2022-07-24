@@ -7,9 +7,6 @@ trigger:
 
 resources:
 - repo: self
-
-pool:
-  vmImage: 'ubuntu-latest'
  
 variables:
   ImageName: 'arunsidnal/mywebapprepo:$(Build.BuildId)'
@@ -20,14 +17,16 @@ stages:
   jobs:  
   - job: Build
     displayName: Build and push Docker image
+    pool:
+      vmImage: ubuntu-latest
     steps:
     - task: Docker@1
       displayName: 'Build the Docker image'
       inputs:
         containerregistrytype: 'Container Registry'
         dockerRegistryEndpoint: 'Dockerconnection'
-        command: 'Build an image'
-        dockerFile: '**/Dockerfile'
+        command: 'build an image'
+        dockerFile: '$(Build.SourcesDirectory)/WebAppForAzureDocker/Dockerfile'
         imageName: '$(ImageName)'
         includeLatestTag: true
         useDefaultContext: false
