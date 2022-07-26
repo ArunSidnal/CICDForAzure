@@ -26,7 +26,7 @@ stages:
         containerregistrytype: 'Container Registry'
         dockerRegistryEndpoint: 'Dockerconnection'
         command: 'build an image'
-        dockerFile: '$(Build.SourcesDirectory)/WebAppForAzureDocker/Dockerfile'
+        dockerFile: '$(Build.SourcesDirectory)/WebAppDockerFOrAzureApp/Dockerfile'
         imageName: '$(ImageName)'
         includeLatestTag: true
         useDefaultContext: false
