@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+sIVaggkGKMQPbB8MI1hctrLemGJh66ip8XEQZ/HsCFpJZhl6psCvJtBNLx3LoYuQWzzLnlIbCHjQxETqmc1Ow==",
+  "dgSpecHash": "AMueiROyPpMoJZQX8vZpxTrhIbN0NTnLf2NrrYXloN9pEvxnTNG+6wGsUj8U3K2ciNHe6dJEisT8IM73SxWTQA==",
   "success": true,
   "projectFilePath": "C:\\PersonalFiles\\training\\AzureDocker\\WebAppForAzureDocker\\WebAppForAzureDocker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\A379882\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
