@@ -26,7 +26,7 @@ stages:
         containerregistrytype: 'Container Registry'
         dockerRegistryEndpoint: 'Dockerconnection'
         command: 'build an image'
-        dockerFile: '$(Build.SourcesDirectory)/WebAppMVC/Dockerfile'
+        dockerFile: '$(Build.SourcesDirectory)/WebAppMVC/WebAppMVC/Dockerfile'
         imageName: '$(ImageName)'
         includeLatestTag: true
         useDefaultContext: false
