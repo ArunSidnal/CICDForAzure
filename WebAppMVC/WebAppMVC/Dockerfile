@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk AS build
 
 WORKDIR /code
 
-COPY ["./WebAppMVC.csproj", "./"]
+COPY ["./WebAppMVC/WebAppMVC/WebAppMVC.csproj", "./"]
 RUN dotnet restore 
 COPY . .
 RUN dotnet publish --output /output --configuration Release
