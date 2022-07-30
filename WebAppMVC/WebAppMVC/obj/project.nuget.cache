@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "00onk1Ik/a5g5GaMYnmevsI+5zbcrJK2t4vLTcTf0eQnyYJhUpZ7fxNj1sevKg78S4ksWfKFbIwX5Z6rZThkTw==",
+  "success": true,
+  "projectFilePath": "C:\\PersonalFiles\\training\\AzureDocker\\WebAppMVC\\WebAppMVC\\WebAppMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A379882\\.nuget\\packages\\microsoft.openapi\\1.3.2\\microsoft.openapi.1.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
